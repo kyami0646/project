@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+  font-size: 100%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  line-height: 1.7;
+  color: black;
+  text-align: center;
+  background-color: rgb(185, 230, 231);
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: #432;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* page_header */
+.header_logo {
+  width: 210px;
+  margin-top: 34px;
+  list-style: none;
+  color: #432;
+}
+
+.main_nav {
+  display: flex;
+  list-style: none;
+  margin-top: 34px;
+}
+
+.main_nav li {
+  margin-left: 36px;
+}
+
+.page_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#score {
+  width: 50px;
+  height: 40px;
+}
+/* login_____main */
+#typed {
+  color: red;
+}
+
+/* register_main */
+.register_main {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #2c2c2f;
+  background-color: white;
+}
